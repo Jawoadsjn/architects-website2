@@ -1,5 +1,55 @@
 /* FOnt family */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
-*{
+
+* {
     font-family: 'Work Sans', sans-serif;
+}
+
+
+/* nav related css */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.tytle {
+    font-size: 3rem;
+    font-weight: 700;
+    color:  #131313;
+
+}
+/* banner */
+.banner-content{
+    max-width: 860;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    color: #131313;
+    font-weight: 700;
 }
