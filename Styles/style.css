@@ -72,21 +72,11 @@ nav li a {
     width: 100%;
     margin-top: 30px;
 }
-/* Responsive Style */
-/* small device */
-@media screen and (max-width: 576px) {
-    .header{
-        padding: 20px;
-    }
-    .nav{
-        flex-direction: column;
-    }
-    
-}
+
 /* Main related Style */
 main{
     max-width: 1400px;
-    margin: 0px auto;
+    margin: 70px auto;
   
 }
 /* teams style */
@@ -118,4 +108,25 @@ main{
 .team-tytle .feature{
     color: #FF900E;
     font-weight: 700;
+}
+.team-disc{
+    color: #727272;
+}
+
+
+
+/* Responsive Style */
+/* small device */
+@media screen and (max-width: 576px) {
+    .header{
+        padding: 20px;
+    }
+    .nav,
+    .team-container{
+        flex-direction: column;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    
 }
