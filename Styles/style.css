@@ -83,3 +83,39 @@ nav li a {
     }
     
 }
+/* Main related Style */
+main{
+    max-width: 1400px;
+    margin: 0px auto;
+  
+}
+/* teams style */
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,  1fr);
+    gap: 1rem;
+}
+.team-content{
+    padding: 70px;
+    
+}
+.team-tytle{
+    font-size: 2rem;
+    
+}
+.team-tytle .quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.team-tytle .off{
+    color: #131313;
+    font-weight: 700;
+}
+.team-tytle .feature{
+    color: #FF900E;
+    font-weight: 700;
+}
